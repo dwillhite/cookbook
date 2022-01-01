@@ -20,7 +20,12 @@
     "baseUrl": ".",
     "module": "es6",
     "experimentalDecorators": true,
+    "types": [],
+    "skipLibCheck": true,
     "paths": {
+      "fetch": [
+        "node_modules/ember-fetch"
+      ],
       "palate-app/tests/*": [
         "tests/*"
       ],

@@ -6,6 +6,16 @@ module.exports = function (environment) {
     environment,
     rootURL: '/',
     locationType: 'auto',
+    firebase: {
+      apiKey: 'AIzaSyA0sp4Oa53FZ7PxeVNB8m6qcFh8C7d15s8',
+      authDomain: 'eye-and-palate.firebaseapp.com',
+      databaseURL: 'https://eye-and-palate.firebaseapp.com',
+      projectId: 'eye-and-palate',
+      storageBucket: 'eye-and-palate.appspot.com',
+      messagingSenderId: '605619825650',
+      appId: '1:605619825650:web:dc3806d7d043b31525d96b',
+      measurementId: 'G-TW357XGW0Y',
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
